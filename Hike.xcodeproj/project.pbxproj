@@ -13,6 +13,7 @@
 		2F8571F62A9DCD3F000D84CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8571F52A9DCD3F000D84CA /* Preview Assets.xcassets */; };
 		2F8571FD2A9DD53D000D84CA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8571FC2A9DD53D000D84CA /* CardView.swift */; };
 		2F8572002A9DD970000D84CA /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8571FF2A9DD970000D84CA /* CustomBackgroundView.swift */; };
+		2F8572032A9DE18A000D84CA /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8572022A9DE18A000D84CA /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2F8571F52A9DCD3F000D84CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F8571FC2A9DD53D000D84CA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		2F8571FF2A9DD970000D84CA /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		2F8572022A9DE18A000D84CA /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		2F8571ED2A9DCD3C000D84CA /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				2F8572012A9DE14A000D84CA /* Utility */,
 				2F8571EE2A9DCD3C000D84CA /* HikeApp.swift */,
 				2F8571F02A9DCD3C000D84CA /* ContentView.swift */,
 				2F8571F22A9DCD3F000D84CA /* Assets.xcassets */,
@@ -79,6 +82,14 @@
 				2F8571FF2A9DD970000D84CA /* CustomBackgroundView.swift */,
 			);
 			path = Conponent;
+			sourceTree = "<group>";
+		};
+		2F8572012A9DE14A000D84CA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2F8572022A9DE18A000D84CA /* ColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 				2F8571FD2A9DD53D000D84CA /* CardView.swift in Sources */,
 				2F8571EF2A9DCD3C000D84CA /* HikeApp.swift in Sources */,
 				2F8572002A9DD970000D84CA /* CustomBackgroundView.swift in Sources */,
+				2F8572032A9DE18A000D84CA /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

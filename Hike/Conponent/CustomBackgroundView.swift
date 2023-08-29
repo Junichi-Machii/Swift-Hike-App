@@ -11,15 +11,19 @@ struct CustomBackgroundView: View {
     var body: some View {
         ZStack {
             
-            Color("ColorGreenDark")
+            Color.customGreenDark
                 .cornerRadius(40)
                 .offset(y: 12)
-            Color("ColorGreenLight")
+            Color.customGreenLight
                 .cornerRadius(40)
                 .offset(y:3)
                 .opacity(0.85)
             
-            LinearGradient(colors:[Color("ColorGreenLight"),Color("ColorGreenMedium")], startPoint: .topTrailing, endPoint: .bottomLeading
+            LinearGradient(colors:[
+                Color.customGreenLight,
+                Color.customGreenMedium],
+                           startPoint: .topTrailing,
+                           endPoint: .bottomLeading
             )
             .cornerRadius(40)
         }
