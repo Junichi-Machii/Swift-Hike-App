@@ -14,6 +14,7 @@
 		2F8571FD2A9DD53D000D84CA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8571FC2A9DD53D000D84CA /* CardView.swift */; };
 		2F8572002A9DD970000D84CA /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8571FF2A9DD970000D84CA /* CustomBackgroundView.swift */; };
 		2F8572032A9DE18A000D84CA /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8572022A9DE18A000D84CA /* ColorExtension.swift */; };
+		2F92DA482AB19E5E0088427A /* CustomButtonIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F92DA472AB19E5E0088427A /* CustomButtonIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2F8571FC2A9DD53D000D84CA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		2F8571FF2A9DD970000D84CA /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		2F8572022A9DE18A000D84CA /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		2F92DA472AB19E5E0088427A /* CustomButtonIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				2F8571FC2A9DD53D000D84CA /* CardView.swift */,
 				2F8571FF2A9DD970000D84CA /* CustomBackgroundView.swift */,
+				2F92DA472AB19E5E0088427A /* CustomButtonIView.swift */,
 			);
 			path = Conponent;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F8571F12A9DCD3C000D84CA /* ContentView.swift in Sources */,
+				2F92DA482AB19E5E0088427A /* CustomButtonIView.swift in Sources */,
 				2F8571FD2A9DD53D000D84CA /* CardView.swift in Sources */,
 				2F8571EF2A9DCD3C000D84CA /* HikeApp.swift in Sources */,
 				2F8572002A9DD970000D84CA /* CustomBackgroundView.swift in Sources */,
